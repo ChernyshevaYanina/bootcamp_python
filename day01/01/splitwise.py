@@ -19,15 +19,3 @@ def split_booty(*dicts):
         purse2["gold_ingots"] += 1
     
     return purse1, purse2, purse3
-
-def main():
-    purse1 = {"gold_ingots": 3}
-    purse2 = {"silver_ingots": 5, "gold_ingots": 10}
-    purse3 = {"stones": 15}
-    purse4 = {"gold_ingots": 1}
-    purse5 = {"gold_ingots": 1, "aplles" : 7}
-    
-    print(split_booty(purse1, purse2, purse3, purse4, purse5))
-    
-if __name__ == "__main__":
-    main()
